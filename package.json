@@ -1,0 +1,9 @@
+{
+  "name": "atomic-colours",
+  "version": "1.0.0",
+  "description": "Colour library for Atomic.io",
+  "main": "index.js",
+  "repository": "https://www.github.com/atomic-app/atomic-colours",
+  "author": "Russel Werner (russel@atomic.io)",
+  "license": "MIT"
+}
