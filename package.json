@@ -5,5 +5,8 @@
   "main": "index.js",
   "repository": "https://www.github.com/atomic-app/atomic-colours",
   "author": "Russel Werner (russel@atomic.io)",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "polished": "^1.0.2"
+  }
 }

@@ -1,5 +1,8 @@
+import {opacify} from 'polished';
+
 // General UI Colours
 export const WHITE = '#FFFFFF';
+export const BLACK = '#000000';
 export const BLACKISH = '#2D3034';
 
 export const GREY_900 = '#343C46';
@@ -24,3 +27,11 @@ export const RED = '#F15354';
 export const SNAPPING_PINK = '#FF00FF';
 export const COMPONENT_PURPLE = '#9C66FD';
 export const TIMELINE_YELLOW = '#FFE118';
+
+// Modifiers
+export const inactive = colour => opacify(-0.7, colour);
+export const hover = colour => opacify(-0.3, colour);
+export const active = colour => colour;
+export const selected = colour => colour;
+export const pressed = colour => opacify(-0.1, colour);
+export const disabled = colour => opacify(-0.5, colour);
