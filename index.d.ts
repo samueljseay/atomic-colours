@@ -27,6 +27,7 @@ export const COMPONENT_PURPLE = '#9C66FD';
 export const TIMELINE_YELLOW = '#FFE118';
 
 export function inactive(colour: string): string;
+export function shadow(colour: string): string;
 export function hover(colour: string): string;
 export function active(colour: string): string;
 export function selected(colour: string): string;
