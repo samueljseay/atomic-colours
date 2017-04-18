@@ -16,7 +16,8 @@
     "prebuild": "npm run clean && npm run init",
     "build": "babel src/ -d lib",
     "flow-copy": "flow-copy-source src lib",
-    "prepublish": "npm run build && npm run flow-copy"
+    "prepublish": "npm run build && npm run flow-copy",
+    "postinstall": "npm run build"
   },
   "dependencies": {
     "polished": "^1.0.2"
