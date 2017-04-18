@@ -29,10 +29,13 @@ export const COMPONENT_PURPLE = '#9C66FD';
 export const TIMELINE_YELLOW = '#FFE118';
 
 // Modifiers
-export const inactive = (colour: string): string => opacify(-0.7, colour);
+export const inactive = (colour: string): string => opacify(-0.75, colour);
 export const hover = (colour: string): string => opacify(-0.3, colour);
-export const shadow = (colour: string): string => opacify(-0.7, colour);
+export const shadow = (colour: string): string => opacify(-0.75, colour);
 export const active = (colour: string): string => colour;
 export const selected = (colour: string): string => colour;
 export const pressed = (colour: string): string => opacify(-0.1, colour);
 export const disabled = (colour: string): string => opacify(-0.5, colour);
+
+export const half = (colour: string): string => opacify(-0.5, colour);
+export const quarter = (colour: string): string => opacify(-0.75, colour);
