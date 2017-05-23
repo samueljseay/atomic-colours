@@ -12,6 +12,7 @@ export const GREY_600 = '#646E7F';
 export const GREY_500 = '#798293';
 export const GREY_400 = '#939DAF';
 export const GREY_300 = '#BDC4D0';
+export const GREY_200 = '#DADEE5';
 
 export const BLUE = '#2286FB';
 export const BLUE_DARK = '#0E74E6';
