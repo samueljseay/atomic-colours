@@ -28,7 +28,8 @@ export const RED = '#F15354';
 export const SNAPPING_PINK = '#FF00FF';
 export const COMPONENT_PURPLE = '#9C66FD';
 export const TIMELINE_YELLOW = '#FFE118';
-export const ORG_PURPLE = '#9031B3';
+export const ORG_PURPLE = '#BD47F2';
+export const ORG_PURPLE_DARK = '#9031B3';
 
 // Modifiers
 export const inactive = (colour: string): string => opacify(-0.75, colour);
