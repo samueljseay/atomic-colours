@@ -20,7 +20,8 @@ export const IVORY = '#F0F2F3';
 export const IVORY_WHITE = '#F4F4F4';
 
 export const MINT = '#2ED8B1';
-export const SPEARMINT = '#29CDA8';
+export const MINT_DARK = '#29CDA8';
+export const MINT_DARKER = '#26AD8F';
 export const CORAL = '#FF6969';
 export const RED = '#F15354';
 
