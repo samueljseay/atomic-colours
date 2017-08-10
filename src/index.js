@@ -28,6 +28,7 @@ export const RED = '#F15354';
 // Specific UI Element Colours
 export const SNAPPING_PINK = '#FF00FF';
 export const COMPONENT_PURPLE = '#9C66FD';
+export const COMPONENT_PURPLE_DARK = '#815FCC';
 export const TIMELINE_YELLOW = '#FFE118';
 export const ORG_PURPLE = '#BD47F2';
 export const ORG_PURPLE_DARK = '#9031B3';
