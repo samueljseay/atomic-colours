@@ -13,11 +13,11 @@
   "scripts": {
     "init": "mkdir lib",
     "clean": "rm -rf lib",
-    "prebuild": "yarn run clean && yarn run init",
+    "prebuild": "npm run clean && npm run init",
     "build": "babel src/ -d lib",
     "flow-copy": "flow-copy-source src lib",
-    "prepublish": "yarn run build && yarn run flow-copy",
-    "postinstall": "yarn run build && yarn run flow-copy"
+    "prepublish": "npm run build && npm run flow-copy",
+    "postinstall": "npm run build && npm run flow-copy"
   },
   "dependencies": {
     "polished": "^1.0.2",
